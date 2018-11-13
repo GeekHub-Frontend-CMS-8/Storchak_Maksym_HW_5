@@ -1,12 +1,163 @@
 body {
-    
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    justify-content: center;
 }
+
+.allcontent {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    background-color: #f6f9f9;
+}
+
+header img {
+    margin-left: 250px;
+}
+
+header .label {
+    margin-left: 15px;
+
+    color: #2d3950;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
 .banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     height: 800px;
     background-image: url(../img/Image.png);
-
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
 }
+
+.banner h1 {
+    margin: 0;
+    padding: 217px 92px 34px;
+    font-size: 120px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    border-bottom: #15a4fa solid 2px;
+}
+
+.banner p {
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    margin: 40px 0 65px;
+}
+
+.btn {
+    padding: 20px 35px;
+    border-radius: 2px;
+    border: 1px solid #15a4fa;
+    background-color: transparent;
+    color: #fff;
+}
+
+.btn:hover {
+    background-color: #15a4fa;
+}
+
+.link {
+    margin-top: 179px;
+}
+
+.link img:hover {
+    filter: invert(100%);
+}
+
+.design {
+    height: 340px;
+    background-color: #f6f9f9;
+    text-align: center;
+}
+
+.title {
+    margin: 80px 0 30px;
+    color: #2d3950;
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+
+.design p {
+    margin: 0 250px 110px;
+    color: #999;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.5px;
+}
+
+.feature {
+    display: flex;
+    justify-content: space-between;
+    padding: 65px 250px;
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon:nth-of-type(2) {
+    margin: 0 75px;
+}
+
+.icon>div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 2px;
+    background-color: #5fc3ff;
+}
+.icon>div:hover {
+    background: linear-gradient(to right, #48baff 50%, #5fc3ff 50%);
+}
+.feature h5 {
+    color: #2d3950;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 0.55px;
+}
+
+.feature p {
+    text-align: center;
+    color: #999999;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.38px;
+}
+
 .stay_with_us {
     height: 700px;
     background-image: url(../img/BG.png);
+    background-repeat: no-repeat;
+}
+
+
+li {
+    list-style: none;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
 }
