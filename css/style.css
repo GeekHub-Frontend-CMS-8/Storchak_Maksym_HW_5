@@ -1,0 +1,12 @@
+body {
+    
+}
+.banner {
+    height: 800px;
+    background-image: url(../img/Image.png);
+
+}
+.stay_with_us {
+    height: 700px;
+    background-image: url(../img/BG.png);
+}
